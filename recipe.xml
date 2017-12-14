@@ -13,7 +13,7 @@
                 <field name="1"></field>
                 <next>
                   <block type="runcommand" id="#5_Fxq,RF8e;OWRqOWVW">
-                    <field name="1">curl https://bitdog.io/installhubv2 &gt; /home/pi/install.sh</field>
+                    <field name="1">curl -L https://raw.githubusercontent.com/bitdog-io/bitdog-hub-installer/master/install-bitdog.sh -o /home/pi/install.sh</field>
                     <field name="2">pi</field>
                     <next>
                       <block type="runcommand" id="Zh50LP:4o^PRr4pZ`A3/">
