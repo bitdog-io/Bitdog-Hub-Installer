@@ -217,7 +217,7 @@ do_build_openzwave() {
     rm -r -f /tmp/open-zwave-master
   fi
 
-  curl -s -L -k https://github.com/openzwave/open-zwave/archive/master.tar.gz | tar xz -C /tmp
+  curl -s -L -k https://github.com/bitdog-io/open-zwave/archive/master.tar.gz | tar xz -C /tmp
 
   cat <<EOF > /tmp/open-zwave-master/run_run
 #!/bin/bash
