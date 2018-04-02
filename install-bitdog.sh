@@ -247,7 +247,7 @@ do_build_ffmpeg() {
 
   cat <<EOF > /tmp/FFmpeg-master/run_run
 #!/bin/bash
-./configure --disable-doc --disable-ffplay --disable-ffprobe --disable-ffserver  --arch=armel --target-os=linux --enable-gpl --enable-libx264 --enable-nonfree --enable-omx-rpi --enable-mmal --enable-libfreetype 
+./configure --disable-doc --disable-ffplay --disable-ffprobe --arch=armel --target-os=linux --enable-gpl --enable-libx264 --enable-nonfree --enable-omx-rpi --enable-mmal --enable-libfreetype 
 make -j${CPUCOUNT} && make install
 EOF
 
