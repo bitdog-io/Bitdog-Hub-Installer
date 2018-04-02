@@ -58,7 +58,7 @@ BITDOG_HUB_LOG_DIR=${BITDOGHUB_HOME_DIR}/logs
 BITDOG_HUB_CONFIG_DIR=${BITDOGHUB_HOME_DIR}/config
 BITDOG_HUB_DVR_DIR=${BITDOGHUB_HOME_DIR}/dvr
 
-BITDOG_HUB_INSTALLER_URL="https://bitdog.io/installhubv2"
+BITDOG_HUB_INSTALLER_URL="https://raw.githubusercontent.com/bitdog-io/bitdog-hub-installer/master/install-bitdog.sh"
 
 VIDEO=0
 NOTIFY=0
